@@ -47,6 +47,7 @@ const CreatePost = () => {
 
     if(form.prompt && form.photo) {
       setLoading(true);
+      console.log(form);
 
       try {
         const response = await fetch('http://localhost:8080/api/v1/post', {
@@ -60,7 +61,7 @@ const CreatePost = () => {
         await response.json();
         navigate('/');
       } catch (error) {
-        alert(error);
+        alert(error.message);
       } finally {
         setLoading(false);
       }
