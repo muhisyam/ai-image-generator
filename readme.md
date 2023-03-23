@@ -44,5 +44,5 @@ If you found an issue or would like to submit an improvement to this project, pl
 ## Watch the full crash course
 
 <a href="https://www.youtube.com/watch?v=EyIvuigqDoA" target="_blank">
-<img src="https://i.ibb.co/p0f27C2/Thumbnail-9.png" alt="Watch the series" width="160" height="100">
+<img src="https://i.ibb.co/p0f27C2/Thumbnail-9.png" alt="Watch the series" width="100%" height="100%">
 </a>
